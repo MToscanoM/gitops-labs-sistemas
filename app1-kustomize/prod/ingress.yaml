@@ -12,6 +12,6 @@ spec:
         pathType: Prefix
         backend:
           service:
-            name: app1-kustomize-service
+            name: prod-app1-kustomize-service
             port:
               number: 8080
