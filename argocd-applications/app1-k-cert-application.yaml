@@ -10,8 +10,8 @@ spec:
     path: ./aplicaciones/app1-kustomize/envs/cert
     targetRevision: v1.1-cert
   - repoURL: 'https://github.com/MToscanoM/gitops-labs-sistemas.git'
-    path: ./app1-kustomize/envs/cert
-    targetRevision: v1.1-cert
+    path: ./app1-kustomize/cert
+    targetRevision: v1.2-cert
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: app1-k-cert

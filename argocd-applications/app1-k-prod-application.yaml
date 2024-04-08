@@ -8,10 +8,10 @@ spec:
   sources:
   - repoURL: 'https://github.com/MToscanoM/gitops-labs.git'
     path: ./aplicaciones/app1-kustomize/envs/prod
-    targetRevision: v1.0-cert
+    targetRevision: v1.0-pro
   - repoURL: 'https://github.com/MToscanoM/gitops-labs-sistemas.git'
-    path: ./app1-kustomize/envs/prod
-    targetRevision: v1.0-cert
+    path: ./app1-kustomize/prod
+    targetRevision: v1.0-pro
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: app1-k-prod
