@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: edo2
+  name: app1-k
   namespace: continuous-delivery
 spec:
   project: default
